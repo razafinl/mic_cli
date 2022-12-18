@@ -1,0 +1,6 @@
+.pytest_cache
+__pycache__
+*.ipynb
+*.log
+boomi.yml
+files_com.yml
