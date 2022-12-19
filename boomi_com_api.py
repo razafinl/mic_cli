@@ -1,5 +1,4 @@
 from requests import Session
-import logging
 import json
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
@@ -9,8 +8,6 @@ BASE_URL    = "https://api.boomi.com/api/rest/v1/"
 JSON_TYPE   = "application/json"
 XML_TYPE    = "application/xml"
 MAX_WORKERS = 3
-
-logger = logging.getLogger()
 
 class BoomiAPI(Session):
     
